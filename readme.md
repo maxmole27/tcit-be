@@ -19,4 +19,11 @@ If you don't have postgres in your system you can use the docker compose to serv
 `docker-compose up -d `
 
 ### Execute Database Migrations
-`pnpm dlx prisma migrate dev --name init`
+`pnpm dlx prisma migrate dev --name init`  
+
+### Run NodeJS App  
+`node main.js`
+
+### If you want to test just the api rest:  
+Just export this postman-compatible project
+https://drive.google.com/file/d/14UtVBSEq0XY7UH3r0ZrZL9aqYOcRvYtx/view?usp=sharing
