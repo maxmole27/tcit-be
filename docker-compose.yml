@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postmanager_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: hola1234
+      POSTGRES_DB: postmanager
+    ports:
+      - "5433:5432"
+    volumes:
+      - .data:/var/lib/postgresql/data
+
+volumes:
+  .data:
